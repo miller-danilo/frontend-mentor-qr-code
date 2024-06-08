@@ -34,7 +34,7 @@ body {
   .card-content {
     padding: 0 25px;
 
-    h1 {
+    h3 {
       color: var(--color-dark-navy);
       font-weight: 700;
       font-size: 1.45em;
