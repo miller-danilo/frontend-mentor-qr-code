@@ -5,6 +5,7 @@
   --background-card: #ffffff;
   --color-dark-navy: #1f314f;
   --color-grey: #7d889e;
+  --color-border-card: #979797;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
   background-color: var(--background-card);
   width: 320px;
   height: 497px;
+  border: var(--color-border-card);
   border-radius: 20px;
   text-align: center;
   
@@ -34,11 +36,10 @@ body {
 
     h1 {
       color: var(--color-dark-navy);
-      height: 56px;
       font-weight: 700;
-      font-size: 1.5em;
-      line-height: 28px;
+      font-size: 1.45em;
       text-align: center;
+      margin-bottom: 0;
     }
 
     p {
@@ -51,6 +52,7 @@ body {
     width: 288px;
     border-radius: 10px;
     margin-top: 16px;
+    margin-bottom: 0;
   }
 }
 
